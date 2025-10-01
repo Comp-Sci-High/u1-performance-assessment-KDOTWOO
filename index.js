@@ -11,7 +11,7 @@ let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector",
 
 weworkItems.shift();
 weworkIetms.push("loaner laptop");
-computerLabItems.
+computerLabItems[2,"fixed laptop"];
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
