@@ -10,9 +10,9 @@ let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice"
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
 
 weworkItems.shift();
-weworkIetms.push("loaner laptop");
+weworkItems.push("loaner laptop");
 computerLabItems[2,"fixed laptop"];
-mprItems.length()
+// x = 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 3rd Floor
@@ -22,14 +22,10 @@ let scoreValues = {
     "C": "Challenge",
     "O": "Organization",
     "R": "Resilience"
-}
-scoreValues={
-    S: "Self-awareness",
-    C: "Challenge",
-    O: "Organization",
-    R: "Resilience",
-    E: "Excellence"
 };
+let c ="Consistency";
+let o = "Ownership";
+let e = "Excellence";
 
 let afterSchoolClubs = {
     athletic: [
@@ -61,27 +57,39 @@ let afterSchoolClubs = {
         }     
     ]
 }
-afterSchoolClubs.athletic.club("British Football Club");
-afterSchoolClubs.social.location("Balcony")
+afterSchoolClubs["athletic"][0]["club"] = "British Football Club";
+afterSchoolClubs["social"][2]["location"]="Balcony";
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 4th Floor
 // Uncomment the code below to begin this task
 
-// let takeCareOfPet = function(snacks, pets) => {
-//     if (Snacks[2] === "hotdogs" && pets > 10) {
-//         return "Raccoon has been appeased"
-//     } else {
-//         return "The raccoon bit you and you died of rabies."
+  function takeCareOfPet(snacks, pets) {
+     if ( snacks && pets > 10) {
+         return "Raccoon has been appeased";
+     } else {
+         return "The raccoon bit you and you died of rabies."
     
-// }
+ }
+};
 
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
 
+function addMessage(repeat){
+    const IDK=[];
+    for (let i =0;i < 5;i++){
+        IDK.push(repeat);
+        
+    }
+    console.log("Open Sesame!")
+    return IDK;
+    
+}
+addMessage("Sup");
 
 
 
